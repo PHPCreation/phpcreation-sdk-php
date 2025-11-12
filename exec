@@ -1,0 +1,4 @@
+#!/bin/bash
+
+#docker-compose exec app sh -c "cd /var/task && $@"
+docker-compose exec app $@

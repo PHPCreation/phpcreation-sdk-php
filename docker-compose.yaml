@@ -1,0 +1,16 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile.local
+    ports:
+      - '8001:8000'
+    volumes:
+      - .:/var/task
+    environment:
+      PHP_UID: 1000
+      APP_DEBUG: 1
+      APP_ENV: dev
+      HANDLER: public/index.php
+      DOCUMENT_ROOT: public
+      BREF_BINARY_RESPONSES: 1

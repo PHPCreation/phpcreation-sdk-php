@@ -1,0 +1,13 @@
+/vendor/
+/.idea/
+composer.lock
+/phpunit.xml
+/tests/cache
+/var/
+.phpunit.result.cache
+
+# node
+/node_modules
+
+# private packages auth
+/auth.json
