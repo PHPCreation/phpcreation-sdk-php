@@ -2,7 +2,7 @@
 
 namespace Phpc\PHPReaction\Auth;
 
-use Phpc\AbstractRequest;
+use Phpc\Core\AbstractRequest;
 
 class AuthenticationRequest extends AbstractRequest
 {

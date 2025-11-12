@@ -2,7 +2,7 @@
 
 namespace Phpc\PHPReaction\Auth;
 
-use Phpc\AbstractResponse;
+use Phpc\Core\AbstractResponse;
 
 class AuthenticationResponse extends AbstractResponse
 {

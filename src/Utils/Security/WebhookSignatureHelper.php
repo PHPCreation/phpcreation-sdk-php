@@ -1,6 +1,6 @@
 <?php
 
-namespace Phpc\Utils;
+namespace Phpc\Utils\Security;
 
 class WebhookSignatureHelper
 {

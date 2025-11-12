@@ -1,6 +1,6 @@
 <?php
 
-namespace Phpc;
+namespace Phpc\Core;
 
 abstract class AbstractRequest extends JsonSerializeable
 {

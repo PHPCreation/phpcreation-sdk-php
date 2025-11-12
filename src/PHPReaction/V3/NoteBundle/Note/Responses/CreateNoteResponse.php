@@ -2,7 +2,7 @@
 
 namespace Phpcs\PHPReaction\V3\NoteBundle\Responses;
 
-use Phpc\AbstractResponse;
+use Phpc\Core\AbstractResponse;
 
 class CreateNoteResponse extends AbstractResponse
 {

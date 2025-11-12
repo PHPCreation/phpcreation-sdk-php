@@ -2,7 +2,7 @@
 
 namespace Phpcs\PHPReaction\V3\NoteBundle\Requests;
 
-use Phpc\AbstractRequest;
+use Phpc\Core\AbstractRequest;
 
 class DeleteNoteRequest extends AbstractRequest
 {

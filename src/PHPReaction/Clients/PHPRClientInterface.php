@@ -2,7 +2,7 @@
 
 namespace Phpc\PHPReaction\Client;
 
-use Phpc\ClientInterface;
+use Phpc\Core\Contracts\ClientInterface;
 
 interface PHPRClientInterface extends ClientInterface
 {
