@@ -36,7 +36,11 @@ final class WebhookSignatureHelper
      * @throws ExpiredException             Provided JWT has since expired, as defined by the 'exp' claim
      * @throws \Throwable
      */
-    public static function verify(string $jwt, string $publicKey, bool $throwOnInvalid = false): WebhookPayload|false
+    public static function verify(
+        #[\SensitiveParameter] string $jwt,
+        string $publicKey,
+        bool $throwOnInvalid = false
+    ): WebhookPayload|false
     {
         try {
             // Decode Webhook JWT using given public key
