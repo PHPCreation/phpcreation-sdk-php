@@ -1,10 +1,10 @@
 <?php
 
-namespace Phpcs\PHPReaction\V3\NoteBundle\Responses;
+namespace Phpc\PHPReaction\V3\NoteBundle\Note\Responses;
 
 use Phpc\Core\AbstractResponse;
 
-class UpdateNoteResponse extends AbstractResponse
+final class UpdateNoteResponse extends AbstractResponse
 {
 
 }

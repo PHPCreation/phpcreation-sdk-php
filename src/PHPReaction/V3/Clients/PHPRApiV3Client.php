@@ -1,8 +1,10 @@
 <?php
 
-namespace Phpc\PHPReaction\Client;
+namespace Phpc\PHPReaction\V3\Clients;
 
-class PHPRApiV3Client implements PHPRClientInterface
+use Phpc\PHPReaction\Client\PHPRClientInterface;
+
+final class PHPRApiV3Client implements PHPRClientInterface
 {
 
 }

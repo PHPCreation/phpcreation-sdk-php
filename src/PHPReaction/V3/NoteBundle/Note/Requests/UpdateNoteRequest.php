@@ -1,10 +1,10 @@
 <?php
 
-namespace Phpcs\PHPReaction\V3\NoteBundle\Requests;
+namespace Phpc\PHPReaction\V3\NoteBundle\Note\Requests;
 
 use Phpc\Core\AbstractRequest;
 
-class UpdateNoteRequest extends AbstractRequest
+final class UpdateNoteRequest extends AbstractRequest
 {
 
 }
