@@ -4,6 +4,12 @@ namespace Phpc\PHPReaction\V3\NoteBundle\Note\Responses;
 
 use Phpc\Core\AbstractResponse;
 
+/**
+ * CreateNoteResponse
+ *
+ * No setters on response objects, they are readonly.
+ * Populate data using json deserialize from parent, so json response is deserialized into object.
+ */
 final class CreateNoteResponse extends AbstractResponse
 {
     /* ===== Base ===== */

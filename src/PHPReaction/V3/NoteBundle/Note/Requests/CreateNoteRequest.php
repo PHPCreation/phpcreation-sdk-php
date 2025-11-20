@@ -6,6 +6,12 @@ use Phpc\Core\AbstractRequest;
 
 // TODO review properties types to have actual objects?
 //      how to detect from spec
+
+/**
+ * CreateNoteRequest.
+ *
+ * Contains properties that can be used to create a note.
+ */
 final class CreateNoteRequest extends AbstractRequest
 {
     /* ===== Base ===== */
@@ -50,9 +56,10 @@ final class CreateNoteRequest extends AbstractRequest
         return $this->slug;
     }
 
-    public function setSlug(string $slug): void
+    public function setSlug(string $slug): self
     {
         $this->slug = $slug;
+        return $this;
     }
 
     public function getDisabledAt(): ?string
@@ -60,9 +67,10 @@ final class CreateNoteRequest extends AbstractRequest
         return $this->disabledAt;
     }
 
-    public function setDisabledAt(?string $disabledAt): void
+    public function setDisabledAt(?string $disabledAt): self
     {
         $this->disabledAt = $disabledAt;
+        return $this;
     }
 
     /**
@@ -76,9 +84,10 @@ final class CreateNoteRequest extends AbstractRequest
     /**
      * @param mixed $apiTranslations
      */
-    public function setApiTranslations($apiTranslations): void
+    public function setApiTranslations($apiTranslations): self
     {
         $this->apiTranslations = $apiTranslations;
+        return $this;
     }
 
     public function getPriority(): int
@@ -86,9 +95,10 @@ final class CreateNoteRequest extends AbstractRequest
         return $this->priority;
     }
 
-    public function setPriority(int $priority): void
+    public function setPriority(int $priority): self
     {
         $this->priority = $priority;
+        return $this;
     }
 
     public function getRefTable(): string
@@ -96,9 +106,10 @@ final class CreateNoteRequest extends AbstractRequest
         return $this->refTable;
     }
 
-    public function setRefTable(string $refTable): void
+    public function setRefTable(string $refTable): self
     {
         $this->refTable = $refTable;
+        return $this;
     }
 
     public function getRowId(): int
@@ -106,9 +117,10 @@ final class CreateNoteRequest extends AbstractRequest
         return $this->rowId;
     }
 
-    public function setRowId(int $rowId): void
+    public function setRowId(int $rowId): self
     {
         $this->rowId = $rowId;
+        return $this;
     }
 
     public function getParent(): ?string
@@ -116,9 +128,10 @@ final class CreateNoteRequest extends AbstractRequest
         return $this->parent;
     }
 
-    public function setParent(?string $parent): void
+    public function setParent(?string $parent): self
     {
         $this->parent = $parent;
+        return $this;
     }
 
     public function getStatus(): string
@@ -126,9 +139,10 @@ final class CreateNoteRequest extends AbstractRequest
         return $this->status;
     }
 
-    public function setStatus(string $status): void
+    public function setStatus(string $status): self
     {
         $this->status = $status;
+        return $this;
     }
 
     public function getType(): string
@@ -136,9 +150,10 @@ final class CreateNoteRequest extends AbstractRequest
         return $this->type;
     }
 
-    public function setType(string $type): void
+    public function setType(string $type): self
     {
         $this->type = $type;
+        return $this;
     }
 
     public function getAuthor(): ?string
@@ -146,9 +161,10 @@ final class CreateNoteRequest extends AbstractRequest
         return $this->author;
     }
 
-    public function setAuthor(?string $author): void
+    public function setAuthor(?string $author): self
     {
         $this->author = $author;
+        return $this;
     }
 
     public function getProject(): ?string
@@ -156,8 +172,9 @@ final class CreateNoteRequest extends AbstractRequest
         return $this->project;
     }
 
-    public function setProject(?string $project): void
+    public function setProject(?string $project): self
     {
         $this->project = $project;
+        return $this;
     }
 }
