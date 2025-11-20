@@ -1,0 +1,26 @@
+# # BillTaxesBillTaxListingIdTimestampableTagTaggingListStandardListing
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**bill** | [**\OpenAPI\Client\Model\BillsBillTaxListingIdTimestampableTagTaggingListStandardListing**](BillsBillTaxListingIdTimestampableTagTaggingListStandardListing.md) | Get bill. | [optional]
+**auto_update** | **bool** |  | [optional] [default to true]
+**shortcode** | **string** |  | [optional] [readonly] [default to 'BT']
+**name** | **string** |  | [optional]
+**rate** | **string** |  | [optional]
+**original_rate** | **string** | Original rate returned from the tax API | [optional]
+**amount** | **string** |  | [optional]
+**id** | **int** | DB Identifier | [optional] [readonly]
+**slug** | **string** | DB Identifier |
+**created_at** | **\DateTime** |  | [optional]
+**updated_at** | **\DateTime** |  | [optional]
+**accountable** | **bool** |  | [optional] [readonly]
+**to_string** | **string** |  | [optional] [readonly]
+**raw_amount** | **float** | Get raw amount. | [optional] [readonly]
+**unique_id** | **string** |  | [optional] [readonly]
+**tagging_listing** | **string** | Get Tagging Listing Why this crashes get annotations (proxy class?) | [optional] [readonly]
+**enabled** | **bool** | Check if the entity is enabled. | [optional] [readonly]
+**disabled** | **bool** | Check if the entit is enabled. | [optional] [readonly]
+
+[[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)

@@ -14,3 +14,21 @@ services:
       HANDLER: public/index.php
       DOCUMENT_ROOT: public
       BREF_BINARY_RESPONSES: 1
+
+  # Ref https://github.com/OpenAPITools/openapi-generator?tab=readme-ov-file#16---docker
+  openapi-generator:
+    image: openapitools/openapi-generator-cli:latest
+    container_name: openapi-php-generator
+    volumes:
+      # Mount current directory so you can access your spec and the generated code
+      - .:/local
+    working_dir: /local
+    environment:
+      # Allow bigger size https://github.com/OpenAPITools/openapi-generator/issues/14096#issuecomment-1683578160
+      - JAVA_OPTS=-DmaxYamlCodePoints=99999999
+    command:
+      generate
+      -i ./config/openapi.json
+      -g php
+      -o ./generated-php-sdk
+      --skip-validate-spec

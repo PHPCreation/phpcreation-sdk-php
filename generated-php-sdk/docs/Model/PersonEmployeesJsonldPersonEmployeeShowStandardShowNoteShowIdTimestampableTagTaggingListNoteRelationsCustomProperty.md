@@ -1,0 +1,88 @@
+# # PersonEmployeesJsonldPersonEmployeeShowStandardShowNoteShowIdTimestampableTagTaggingListNoteRelationsCustomProperty
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**at_context** | [**\OpenAPI\Client\Model\AsyncRequestInputAsyncRequestOutputJsonldContext**](AsyncRequestInputAsyncRequestOutputJsonldContext.md) |  | [optional]
+**at_id** | **string** |  | [optional] [readonly]
+**at_type** | **string** |  | [optional] [readonly]
+**person** | [**\OpenAPI\Client\Model\PeopleJsonldPersonEmployeeShowStandardShowNoteShowIdTimestampableTagTaggingListNoteRelationsCustomProperty**](PeopleJsonldPersonEmployeeShowStandardShowNoteShowIdTimestampableTagTaggingListNoteRelationsCustomProperty.md) | Get person. |
+**responsible** | [**\OpenAPI\Client\Model\PersonEmployeesJsonldPersonEmployeeShowStandardShowNoteShowIdTimestampableTagTaggingListNoteRelationsCustomProperty**](PersonEmployeesJsonldPersonEmployeeShowStandardShowNoteShowIdTimestampableTagTaggingListNoteRelationsCustomProperty.md) |  | [optional]
+**sector** | [**\OpenAPI\Client\Model\ProjectSectorsJsonldPersonEmployeeShowStandardShowNoteShowIdTimestampableTagTaggingListNoteRelationsCustomProperty**](ProjectSectorsJsonldPersonEmployeeShowStandardShowNoteShowIdTimestampableTagTaggingListNoteRelationsCustomProperty.md) |  | [optional]
+**type** | [**\OpenAPI\Client\Model\PersonEmployeeTypesJsonldPersonEmployeeShowStandardShowNoteShowIdTimestampableTagTaggingListNoteRelationsCustomProperty**](PersonEmployeeTypesJsonldPersonEmployeeShowStandardShowNoteShowIdTimestampableTagTaggingListNoteRelationsCustomProperty.md) |  | [optional]
+**working_type** | [**\OpenAPI\Client\Model\PersonWorkingtypesJsonldPersonEmployeeShowStandardShowNoteShowIdTimestampableTagTaggingListNoteRelationsCustomProperty**](PersonWorkingtypesJsonldPersonEmployeeShowStandardShowNoteShowIdTimestampableTagTaggingListNoteRelationsCustomProperty.md) |  | [optional]
+**hour_salary** | **string** |  | [default to '15']
+**hiring_date** | **\DateTime** |  | [optional]
+**date_end_of_contract** | **\DateTime** |  | [optional]
+**vacancy** | **string** |  | [default to '0.04']
+**nas** | **string** |  | [optional]
+**in_schedule** | **bool** |  | [optional]
+**reservable** | **bool** |  | [optional]
+**overtime** | **bool** |  | [optional] [default to true]
+**pay_rrq** | **bool** |  | [optional] [default to true]
+**pay_assemp** | **bool** |  | [optional] [default to true]
+**pay_fss** | **bool** |  | [optional] [default to true]
+**pay_rqap** | **bool** |  | [optional] [default to true]
+**pay_rpc** | **bool** |  | [optional] [default to true]
+**pay_csst** | **bool** |  | [optional] [default to true]
+**pay_fed_taxes** | **bool** |  | [optional] [default to true]
+**pay_prov_taxes** | **bool** |  | [optional] [default to true]
+**annual_deduction_fed** | **string** |  |
+**annual_deduction_prov** | **string** |  |
+**annual_taxable_benefits** | **string** |  |
+**voluntary_retirement_savings_plan** | **string** |  |
+**registered_retirement_savings_plan** | **string** |  |
+**tax_free_saving_account** | **string** |  |
+**code** | **string** |  | [optional]
+**notes** | **string** |  | [optional]
+**internal_notes** | **string** |  | [optional]
+**holiday_payment_annually** | **bool** |  | [optional]
+**estimated_time** | **string** |  | [default to '40']
+**payment_time** | **int** |  | [optional]
+**owning_corporation** | [**\OpenAPI\Client\Model\PersonCorporationsJsonldPersonEmployeeShowStandardShowNoteShowIdTimestampableTagTaggingListNoteRelationsCustomProperty**](PersonCorporationsJsonldPersonEmployeeShowStandardShowNoteShowIdTimestampableTagTaggingListNoteRelationsCustomProperty.md) |  | [optional]
+**shortcode** | **string** |  | [optional] [readonly] [default to 'E']
+**deleted_at** | **\DateTime** |  | [optional]
+**id** | **int** | DB Identifier | [optional] [readonly]
+**slug** | **string** | DB Identifier |
+**custom_properties** | **mixed** |  | [optional]
+**custom_data** | **string[]** |  | [optional]
+**created_at** | **\DateTime** |  | [optional]
+**updated_at** | **\DateTime** |  | [optional]
+**disabled_at** | **\DateTime** |  | [optional]
+**to_string** | **string** |  | [optional] [readonly]
+**employee_type** | [**\OpenAPI\Client\Model\PersonEmployeeTypesJsonldPersonEmployeeShowStandardShowNoteShowIdTimestampableTagTaggingListNoteRelationsCustomProperty**](PersonEmployeeTypesJsonldPersonEmployeeShowStandardShowNoteShowIdTimestampableTagTaggingListNoteRelationsCustomProperty.md) | Get type. | [optional]
+**prospects_listing** | **string** |  | [optional] [readonly]
+**projects_listing** | **string** |  | [optional] [readonly]
+**incharge_projects_listing** | **string** |  | [optional] [readonly]
+**clients_listing** | **string** |  | [optional] [readonly]
+**suppliers_listing** | **string** |  | [optional] [readonly]
+**allowances_listing** | **string** |  | [optional] [readonly]
+**tasks_listing** | **string** |  | [optional] [readonly]
+**tasks_sent_listing** | **string** |  | [optional] [readonly]
+**project_sectors_listing** | **string** |  | [optional] [readonly]
+**followups_listing** | **string** |  | [optional] [readonly]
+**recall_followups_listing** | **string** |  | [optional] [readonly]
+**invoices_listing** | **string** |  | [optional] [readonly]
+**timesheets_listing** | **string** |  | [optional] [readonly]
+**payrolls_listing** | **string** |  | [optional] [readonly]
+**t4s_listing** | **string** |  | [optional] [readonly]
+**bills_listing** | **string** |  | [optional] [readonly]
+**rents_listing** | **string** |  | [optional] [readonly]
+**responsible_rents_listing** | **string** |  | [optional] [readonly]
+**bonis_listing** | **string** |  | [optional] [readonly]
+**sent_bonis_listing** | **string** |  | [optional] [readonly]
+**responsible_sectors_listing** | **string[]** |  | [optional]
+**schedules_listing** | **string** |  | [optional] [readonly]
+**made_schedules_listing** | **string** |  | [optional] [readonly]
+**employee_holiday_amount_to_pay** | **float** |  | [optional] [readonly]
+**custom_properties_listing** | **string** |  | [optional] [readonly]
+**employees_listing** | **string** |  | [optional] [readonly]
+**default_coordinate** | **mixed** |  | [optional] [readonly]
+**anonymous_token** | **string** |  | [optional] [readonly]
+**unique_id** | **string** |  | [optional] [readonly]
+**tagging_listing** | **string** | Get Tagging Listing Why this crashes get annotations (proxy class?) | [optional] [readonly]
+**enabled** | **bool** | Check if the entity is enabled. | [optional] [readonly]
+**disabled** | **bool** | Check if the entit is enabled. | [optional] [readonly]
+
+[[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)

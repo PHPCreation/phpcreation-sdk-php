@@ -1,0 +1,19 @@
+# # LangsLangShowIdTimestampableTagTaggingList
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**tag** | **string** | Translation key |
+**text** | **string** |  |
+**language** | [**\OpenAPI\Client\Model\LangLanguagesLangShowIdTimestampableTagTaggingList**](LangLanguagesLangShowIdTimestampableTagTaggingList.md) |  |
+**notes** | **string** |  | [optional]
+**shortcode** | **string** |  | [optional] [readonly]
+**id** | **int** | DB Identifier | [optional] [readonly]
+**slug** | **string** | DB Identifier |
+**created_at** | **\DateTime** |  | [optional]
+**updated_at** | **\DateTime** |  | [optional]
+**unique_id** | **string** |  | [optional] [readonly]
+**tagging_listing** | **string** | Get Tagging Listing Why this crashes get annotations (proxy class?) | [optional] [readonly]
+
+[[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)

@@ -1,0 +1,15 @@
+# # NotesJsonhalNoteRelations
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**_links** | [**\OpenAPI\Client\Model\AccessTokenJsonhalLinks**](AccessTokenJsonhalLinks.md) |  | [optional]
+**translations_listing** | **string** |  | [optional] [readonly]
+**children_listing** | **string** |  | [optional] [readonly]
+**comments_listing** | **string** |  | [optional] [readonly]
+**participants_listing** | **string** |  | [optional] [readonly]
+**connections_listing** | **string** |  | [optional] [readonly]
+**custom_properties_listing** | **string** |  | [optional] [readonly]
+
+[[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)

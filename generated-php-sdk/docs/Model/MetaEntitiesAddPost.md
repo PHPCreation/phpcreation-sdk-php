@@ -1,0 +1,23 @@
+# # MetaEntitiesAddPost
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**parameter** | **bool** |  | [optional]
+**bundle** | **string** |  | [optional]
+**fqcn** | **string** |  | [optional]
+**table_name** | **string** |  | [optional]
+**entity_api_shortname** | **string** |  | [optional]
+**entity_shortname** | **string** |  | [optional]
+**deleted_at** | **\DateTime** |  | [optional]
+**slug** | **string** | DB Identifier |
+**custom_data** | **string[]** |  | [optional]
+**disabled_at** | **\DateTime** |  | [optional]
+**api_translations** | **string[]** |  | [optional]
+**title** | **mixed** |  | [optional]
+**icon** | **string** |  | [optional]
+**previous** | [**\OpenAPI\Client\Model\MetaEntitiesAddPost**](MetaEntitiesAddPost.md) |  | [optional]
+**next** | [**\OpenAPI\Client\Model\MetaEntitiesAddPost**](MetaEntitiesAddPost.md) |  | [optional]
+
+[[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)

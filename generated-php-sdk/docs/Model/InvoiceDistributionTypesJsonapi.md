@@ -1,0 +1,10 @@
+# # InvoiceDistributionTypesJsonapi
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**data** | [**\OpenAPI\Client\Model\InvoiceDistributionTypesJsonapiData**](InvoiceDistributionTypesJsonapiData.md) |  | [optional]
+**included** | [**\OpenAPI\Client\Model\InvoiceDistributionTypesJsonapi[]**](InvoiceDistributionTypesJsonapi.md) | Related resources requested via the \&quot;include\&quot; query parameter. | [optional]
+
+[[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)

@@ -1,0 +1,23 @@
+# # FeeCurrenciesJsonhalBillShowStandardShowIdCustomPropertyTimestampableTagTaggingList
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**_links** | [**\OpenAPI\Client\Model\AccessTokenJsonhalLinks**](AccessTokenJsonhalLinks.md) |  | [optional]
+**symbol** | **string** | Numerical character of the currency (ex:\&quot;$\&quot;) | [optional] [default to '$']
+**decimal_separator** | **string** | Numerical character of the currency (ex:\&quot;$\&quot;) | [optional] [default to '.']
+**position_left** | **bool** |  | [optional]
+**digits_number** | **int** |  | [optional] [default to 2]
+**conversion_rate** | **string** | Get conversionRate. | [optional] [default to '1']
+**shortcode** | **string** |  | [optional] [readonly] [default to 'CU']
+**id** | **int** | DB Identifier | [optional] [readonly]
+**slug** | **string** | DB Identifier |
+**custom_properties** | **mixed** |  | [optional]
+**custom_data** | **string[]** |  | [optional]
+**created_at** | **\DateTime** |  | [optional]
+**updated_at** | **\DateTime** |  | [optional]
+**unique_id** | **string** |  | [optional] [readonly]
+**tagging_listing** | **string** | Get Tagging Listing Why this crashes get annotations (proxy class?) | [optional] [readonly]
+
+[[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)
