@@ -2,6 +2,7 @@
     "name": "phpc/phpcreation-sdk-php",
     "description": "PHP SDK to interact with the APIs from PHPCreation apps.",
     "type": "library",
+    "license": "proprietary",
     "autoload": {
         "psr-4": {
             "Phpc\\": "src/"
