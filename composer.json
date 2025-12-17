@@ -1,5 +1,6 @@
 {
     "name": "phpc/phpcreation-sdk-php",
+    "description": "PHP SDK to interact with the APIs from PHPCreation apps.",
     "type": "library",
     "autoload": {
         "psr-4": {
