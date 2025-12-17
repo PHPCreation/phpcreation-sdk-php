@@ -1,8 +1,8 @@
 <?php
 
-namespace Phpc\PHPReaction\Auth;
+namespace Phpcreation\PHPReaction\Auth;
 
-use Phpc\Core\AbstractResponse;
+use Phpcreation\Core\AbstractResponse;
 
 final class AuthenticationResponse extends AbstractResponse
 {

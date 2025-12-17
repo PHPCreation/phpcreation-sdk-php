@@ -1,6 +1,6 @@
 <?php
 
-namespace Phpc\Core\Structure;
+namespace Phpcreation\Core\Structure;
 
 /**
  * Webhook payload structure.

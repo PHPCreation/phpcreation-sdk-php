@@ -1,6 +1,6 @@
 <?php
 
-namespace Phpc\Core\Contracts;
+namespace Phpcreation\Core\Contracts;
 
 interface ClientInterface
 {

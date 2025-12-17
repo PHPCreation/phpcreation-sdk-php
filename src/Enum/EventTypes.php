@@ -1,6 +1,6 @@
 <?php
 
-namespace Phpc\Enum;
+namespace Phpcreation\Enum;
 
 /**
  * Webhook EventTypes Enumeration

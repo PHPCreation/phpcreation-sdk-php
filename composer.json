@@ -1,16 +1,16 @@
 {
-    "name": "phpc/phpcreation-sdk-php",
+    "name": "phpcreation/phpcreation-sdk-php",
     "description": "PHP SDK to interact with the APIs from PHPCreation apps.",
     "type": "library",
     "license": "proprietary",
     "autoload": {
         "psr-4": {
-            "Phpc\\": "src/"
+            "Phpcreation\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Phpc\\Tests\\": "tests/"
+            "Phpcreation\\Tests\\": "tests/"
         }
     },
     "authors": [

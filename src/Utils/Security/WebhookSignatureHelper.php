@@ -1,15 +1,15 @@
 <?php
 
-namespace Phpc\Utils\Security;
+namespace Phpcreation\Utils\Security;
 
 use Firebase\JWT\BeforeValidException;
 use Firebase\JWT\ExpiredException;
 use Firebase\JWT\JWT;
 use Firebase\JWT\Key;
 use Firebase\JWT\SignatureInvalidException;
-use Phpc\Core\Structure\WebhookPayload;
-use Phpc\Enum\Apps;
-use Phpc\Enum\EventTypes;
+use Phpcreation\Core\Structure\WebhookPayload;
+use Phpcreation\Enum\Apps;
+use Phpcreation\Enum\EventTypes;
 
 final class WebhookSignatureHelper
 {

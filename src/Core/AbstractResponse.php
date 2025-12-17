@@ -1,6 +1,6 @@
 <?php
 
-namespace Phpc\Core;
+namespace Phpcreation\Core;
 
 abstract class AbstractResponse extends JsonSerializeable
 {

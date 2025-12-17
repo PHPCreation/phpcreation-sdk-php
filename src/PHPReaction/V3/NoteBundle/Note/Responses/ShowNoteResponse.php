@@ -1,8 +1,8 @@
 <?php
 
-namespace Phpc\PHPReaction\V3\NoteBundle\Note\Responses;
+namespace Phpcreation\PHPReaction\V3\NoteBundle\Note\Responses;
 
-use Phpc\Core\AbstractResponse;
+use Phpcreation\Core\AbstractResponse;
 
 final class ShowNoteResponse extends AbstractResponse
 {

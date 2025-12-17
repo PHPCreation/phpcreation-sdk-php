@@ -1,8 +1,8 @@
 <?php
 
-namespace Phpc\PHPReaction\Client;
+namespace Phpcreation\PHPReaction\Client;
 
-use Phpc\Core\Contracts\ClientInterface;
+use Phpcreation\Core\Contracts\ClientInterface;
 
 interface PHPRClientInterface extends ClientInterface
 {
