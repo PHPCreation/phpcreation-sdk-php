@@ -1,8 +1,8 @@
 <?php
 
-namespace Phpcreation\PHPReaction\V3\NoteBundle\Note\Requests;
+namespace PhpCreation\PHPReaction\V3\NoteBundle\Note\Requests;
 
-use Phpcreation\Core\AbstractRequest;
+use PhpCreation\Core\AbstractRequest;
 
 final class ShowNoteRequest extends AbstractRequest
 {

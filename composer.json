@@ -5,12 +5,12 @@
     "license": "proprietary",
     "autoload": {
         "psr-4": {
-            "Phpcreation\\": "src/"
+            "PhpCreation\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Phpcreation\\Tests\\": "tests/"
+            "PhpCreation\\Tests\\": "tests/"
         }
     },
     "authors": [

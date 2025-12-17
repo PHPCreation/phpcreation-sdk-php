@@ -1,6 +1,6 @@
 <?php
 
-namespace Phpcreation\Core;
+namespace PhpCreation\Core;
 
 abstract class AbstractRequest extends JsonSerializeable
 {
