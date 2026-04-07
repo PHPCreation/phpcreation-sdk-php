@@ -6,7 +6,7 @@ phpcreation-sdk-php
 Using composer:
 
 ```
-composer require phpc/phpcreation-sdk-php
+composer require phpcreation/phpcreation-sdk-php
 ```
 
 ## For contributors
