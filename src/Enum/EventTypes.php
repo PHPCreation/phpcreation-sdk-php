@@ -7,7 +7,7 @@ namespace PhpCreation\Enum;
  */
 enum EventTypes : string
 {
-    case Create = 'postCreate';
+    case Create = 'postPersist';
     case Update = 'postUpdate';
     case Delete = 'postRemove';
 }
